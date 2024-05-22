@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="vieport" content="with=device-width, initial-scale=1.0">
+        <title>Jung Jaehyun's 2023 Birthday Event</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"></a>
+                <div class="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="partner.html">PARTNER</a></li>
+                        <li><a href="contact.html">CONTACT</a></li> 
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Partner</h1>
+        </section>
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function hideMenu(){ 
+                navLinks.style.right = "-200px";  
+            }
+                
+        </script>
+
+        <!------- partner ------->
+        
+        <section class="partner">
+            <h1>Our Media Partner</h1>
+            <div class="row">
+                <div class="partner-col">
+                    <img src="image/jaeluvv.jpg">
+                    <p>@jaeluvv</p>
+                </div>
+                <div class="partner-col">
+                    <img src="image/ncit.png">
+                    <p>@ncit_</p>
+                </div>
+                <div class="partner-col">
+                    <img src="image/jaejef.jpg">
+                    <p>@jaejeff14</p>
+                </div>
+                <div class="partner-col">
+                    <img src="image/nctzen.png">
+                    <p>@nctzen</p>
+                </div>
+                <div class="partner-col">
+                    <img src="image/nctmenfess.jpg">
+                    <p>@nctmenfess_</p>
+                </div>
+            </div>
+        </section>
+
+        <!------- footer ------>
+
+        <section class="footer">
+            <h4>More Info Please Check</h4>
+            <div class="icons">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Putri Anastasya</p>
+
+        </section>
+    </body>
+</html>
